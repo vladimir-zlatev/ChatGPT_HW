@@ -119,6 +119,11 @@ from typing import final
 
 ### YOUR CODE HERE:
 
+# number = int(input('Въведи число: '))
+#
+# for i in range(1, 11):
+#     result = number * i
+#     print(f'{number} x {i} = {result}')
 
 ### EXPECTED OUTPUT:
 # Въведи число: 5
