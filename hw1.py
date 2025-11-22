@@ -143,6 +143,17 @@ from typing import final
 
 ### YOUR CODE HERE:
 
+# list_of_numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+#
+# number_of_evens = 0
+#
+# for number in list_of_numbers:
+#     if number % 2 == 0:
+#         number_of_evens += 1
+#
+# print(f'В списъка има {number_of_evens} четни числа')
+
+
 ### EXPECTED OUTPUT:
 # В списъка има 5 четни числа
 
