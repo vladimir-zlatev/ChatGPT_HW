@@ -168,6 +168,15 @@ from typing import final
 
 ### YOUR CODE HERE:
 
+# names_and_phones = {
+#   "Иван": "0888123456",
+#   "Мария": "0899234567",
+#   "Петър": "0877345678",
+# }
+#
+# for name in names_and_phones:
+#     print(f'{name}: {names_and_phones[name]}')
+
 ### EXPECTED OUTPUT:
 # Иван: 0888123456
 # Мария: 0899234567
