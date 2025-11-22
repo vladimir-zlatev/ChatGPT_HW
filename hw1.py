@@ -290,11 +290,12 @@ students = {"Иван": 5.5, "Мария": 6.0, "Петър": 4.5}
 случайно число между 1 и 100.
 Изведете го.
 """
+
+### YOUR CODE HERE:
+
 # import random
 #
 # print(f'Случайно число: {random.randint(1, 100)}')
-
-### YOUR CODE HERE:
 
 ### EXPECTED OUTPUT:
 # Случайно число: 47  (или друго случайно число)
@@ -310,6 +311,27 @@ students = {"Иван": 5.5, "Мария": 6.0, "Петър": 4.5}
 """
 
 ### YOUR CODE HERE:
+
+def add(x, y):
+    result = x + y
+    print(f'{x} + {y} = {result}')
+
+def subtract(x, y):
+    result = x - y
+    print(f'{x} - {y} = {result}')
+
+def multiply(x, y):
+    result = x * y
+    print(f'{x} * {y} = {result}')
+
+def divide(x, y):
+    result = x / y
+    print(f'{x} / {y} = {result}')
+
+add(10,5)
+subtract(10,5)
+multiply(10,5)
+divide(10,5)
 
 ### EXPECTED OUTPUT:
 # 10 + 5 = 15
