@@ -195,6 +195,18 @@ students = {"Иван": 5.5, "Мария": 6.0, "Петър": 4.5}
 
 ### YOUR CODE HERE:
 
+students = {"Иван": 5.5, "Мария": 6.0, "Петър": 4.5}
+
+grades = 0
+
+for student in students:
+    grades += students[student]
+
+average_grade = round(grades / len(students), 2)
+
+print(f'Средна оценка: {average_grade}')
+
+
 ### EXPECTED OUTPUT:
 # Средна оценка: 5.33
 
