@@ -195,16 +195,16 @@ students = {"Иван": 5.5, "Мария": 6.0, "Петър": 4.5}
 
 ### YOUR CODE HERE:
 
-students = {"Иван": 5.5, "Мария": 6.0, "Петър": 4.5}
-
-grades = 0
-
-for student in students:
-    grades += students[student]
-
-average_grade = round(grades / len(students), 2)
-
-print(f'Средна оценка: {average_grade}')
+# students = {"Иван": 5.5, "Мария": 6.0, "Петър": 4.5}
+#
+# grades = 0
+#
+# for student in students:
+#     grades += students[student]
+#
+# average_grade = round(grades / len(students), 2)
+#
+# print(f'Средна оценка: {average_grade}')
 
 
 ### EXPECTED OUTPUT:
@@ -221,7 +221,12 @@ print(f'Средна оценка: {average_grade}')
 
 
 ### YOUR CODE HERE:
-
+# def rectangle_area(width, height):
+#     area = width * height
+#     print(f'Площта на правоъгълник {width}x{height} е: {area}')
+#
+# rectangle_area(5,10)
+# rectangle_area(3,7)
 
 ### EXPECTED OUTPUT:
 # Площта на правоъгълник 5x10 е: 50
