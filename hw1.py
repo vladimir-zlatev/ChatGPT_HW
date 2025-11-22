@@ -8,6 +8,8 @@
 - Изчислява и извежда възрастта му през 2025 г.
 - Извежда резултата във формат: "Здравей, [име]! През 2025 г. ще бъдеш на [възраст] години."
 """
+from math import floor
+from typing import final
 
 ### YOUR CODE HERE:
 
@@ -34,14 +36,14 @@
 """
 
 ### YOUR CODE HERE:
-x = 10
-y = 20
-
-print(f'x = {x}, y = {y}')
-
-x, y = y, x
-
-print(f'x = {x}, y = {y}')
+# x = 10
+# y = 20
+#
+# print(f'x = {x}, y = {y}')
+#
+# x, y = y, x
+#
+# print(f'x = {x}, y = {y}')
 
 ### EXPECTED OUTPUT:
 # Преди размяна: x = 10, y = 20
@@ -59,6 +61,13 @@ print(f'x = {x}, y = {y}')
 """
 
 ### YOUR CODE HERE:
+# cena = int(input('Цена: '))
+# discount = float(input('Отстъпка (%): '))
+#
+# final_price = cena * (100 - discount) / 100
+#
+# print(f'Крайна цена: {round(final_price, 1)} лв')
+
 
 ### EXPECTED OUTPUT:
 # Цена: 100
