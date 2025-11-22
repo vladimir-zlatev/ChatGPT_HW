@@ -267,6 +267,11 @@ students = {"Иван": 5.5, "Мария": 6.0, "Петър": 4.5}
 - Изведете стойността на pi
 - Изчислите 2 на степен 8
 """
+# import math
+#
+# print(f'Квадратен корен от 144: {math.sqrt(144)}')
+# print(f'Pi: {math.pi}')
+# print(f'2^8: {math.pow(2, 8)}')
 
 
 ### YOUR CODE HERE:
