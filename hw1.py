@@ -9,6 +9,7 @@
 - Извежда резултата във формат: "Здравей, [име]! През 2025 г. ще бъдеш на [възраст] години."
 """
 from math import floor
+from tarfile import TruncatedHeaderError
 from typing import final
 
 ### YOUR CODE HERE:
@@ -243,7 +244,14 @@ students = {"Иван": 5.5, "Мария": 6.0, "Петър": 4.5}
 
 
 ### YOUR CODE HERE:
-
+# def is_even(n):
+#     if n % 2 == 0:
+#         print(f'{n} е четно: True')
+#     else:
+#         print(f'{n} е четно: False')
+#
+# is_even(8)
+# is_even(7)
 
 ### EXPECTED OUTPUT:
 # 8 е четно: True
